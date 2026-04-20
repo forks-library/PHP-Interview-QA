@@ -1,6 +1,6 @@
 # PHP 面试问答
 
-> PHP 很没前途，请把工作留给我，谢谢！
+> PHP 很没前途，请把工作留给我，谢谢！一份面向 PHP 工程师的面试问答手册 —— 汇总真实面试中的高频考点，覆盖 PHP 语言、数据结构与算法、计算机网络、设计模式、存储与中间件、架构、操作系统、安全、Web 等方向，力求用简洁准确的答案帮你从容应对从初级到架构师的各级面试。
 
 ## 一、PHP 篇
 
@@ -31,29 +31,62 @@
 - 【试读】PDO 扩展
 - 【试读】单元测试
 - 【试读】Postman
+- [【试读】static、self、$this 的区别](./docs/php/static-self-this的区别.md)
+- [【试读】include、require、include_once、require_once 的区别](./docs/php/include-require-include_once-require_once的区别.md)
+- [【试读】数组处理函数](./docs/php/常见数组函数.md)
+- [【试读】Cookie 和 Session](./docs/php/Cookie和Session.md)
+- [【试读】预定义变量](./docs/php/预定义变量.md)
+- [【试读】传值和传引用的区别](./docs/php/传值和传引用的区别.md)
+- [【试读】构造函数和析构函数](./docs/php/构造函数和析构函数.md)
+- [【试读】魔术方法](./docs/php/魔术方法.md)
+- [【试读】public、protected、private、final 区别](./docs/php/public-protected-private-final区别.md)
+- [【试读】客户端/服务端 IP 获取，了解代理透传 实际IP 的概念](./docs/php/客户端服务端IP获取.md)
+- [【试读】类的静态调用和实例化调用](./docs/php/类的静态调用和实例化调用.md)
+- [【试读】接口类和抽象类的区别](./docs/php/接口类和抽象类的区别.md)
+- [【试读】PHP 不实例化调用方法](./docs/php/PHP不实例化调用方法.md)
+- [【试读】php.ini 配置选项](./docs/php/php.ini配置选项.md)
+- [【试读】php-fpm.conf 配置](./docs/php/php-fpm.conf配置.md)
+- [【试读】502、504 错误产生原因及解决方式](./docs/php/502-504错误产生原因及解决方式.md)
+- [【试读】如何返回一个301重定向](./docs/php/如何返回一个301重定向.md)
+- [【试读】PHP 与 MySQL 连接方式](./docs/php/PHP与MySQL连接方式.md)
+- [【试读】MySQL、MySQLi、PDO 区别](./docs/php/MySQL-MySQLi-PDO区别.md)
+- [【试读】MySQL 连接池](./docs/php/MySQL连接池.md)
+- [【试读】代码执行过程](./docs/php/代码执行过程.md)
+- [【试读】base64 编码原理](./docs/php/base64编码原理.md)
+- [【试读】ip2long 实现](./docs/php/ip2long实现.md)
+- [【试读】MVC 的理解](./docs/php/MVC的理解.md)
+- [【试读】主流 PHP 框架特点](./docs/php/主流PHP框架特点.md)
+- [【试读】对象关系映射/ORM](./docs/php/对象关系映射ORM.md)
+- [【试读】串行、并行、并发的区别](./docs/php/串行-并行-并发的区别.md)
+- [【试读】同步与异步的理解](./docs/php/同步与异步的理解.md)
+- [【试读】阻塞与非阻塞的理解](./docs/php/阻塞与非阻塞的理解.md)
+- [【试读】同步阻塞与非同步阻塞的理解](./docs/php/同步阻塞与非同步阻塞的理解.md)
+- [【试读】一条echo输出语句是如何执行的](./docs/php/一条echo输出语句是如何执行的.md)
+- [【试读】FastCGI Process Manager](./docs/php/FastCGI-Process-Manager.md)
+- [【试读】php支持哪些注释风格](./docs/php/php支持哪些注释风格.md)
   
 ## 二、数据结构与算法篇
 
-## 三、网络篇
+## 三、计算机网络篇
 
 ## 四、设计模式篇
 
 - 【试读】如何解决复杂问题
 
-## 五、数据基础设施篇
+## 五、存储与中间件篇
 
 ## 六、架构篇
 
 -【试读】领域驱动设计（DDD）
 
-## 七、服务器篇
+## 七、操作系统与服务器篇
 
 ## 八、安全篇
 
 - 【试读】密码学简介
 - 【试读】加密与编码
 
-## 九、客户端篇
+## 九、Web篇
 
 ## 十、番外篇
 
@@ -110,42 +143,6 @@
 1、工作内容->实际问题->用到知识->设置问题->期望回答->评分表->面试评价
 
 2、被安排充当面试官->网上找题库->题库(自己熟悉的)->八股文->筛选
-
-### 1、PHP篇
-
-- [static、self、$this 的区别](./docs/03.PHP/QA.md#staticselfthis-的区别)
-- [include、require、include_once、require_once 的区别](./docs/03.PHP/QA.md#includerequireinclude_oncerequire_once-的区别)
-- [数组处理函数](./docs/03.PHP/QA.md#常见数组函数)
-- [Cookie 和 Session](./docs/03.PHP/QA.md#cookie-和-session)
-- [预定义变量](./docs/03.PHP/QA.md#预定义变量)
-- [传值和传引用的区别](./docs/03.PHP/QA.md#传值和传引用的区别)
-- [构造函数和析构函数](./docs/03.PHP/QA.md#构造函数和析构函数)
-- [魔术方法](./docs/03.PHP/QA.md#魔术方法)
-- [public、protected、private、final 区别](./docs/03.PHP/QA.md#publicprotectedprivatefinal-区别)
-- [客户端/服务端 IP 获取，了解代理透传 实际IP 的概念](./docs/03.PHP/QA.md#客户端服务端-ip-获取了解代理透传-实际ip-的概念)
-- [类的静态调用和实例化调用](./docs/03.PHP/QA.md#类的静态调用和实例化调用)
-- [接口类和抽象类的区别](./docs/03.PHP/QA.md#接口类和抽象类的区别)
-- [PHP 不实例化调用方法](./docs/03.PHP/QA.md#php-不实例化调用方法)
-- [php.ini 配置选项](./docs/03.PHP/QA.md#phpini-配置选项)
-- [php-fpm.conf 配置](./docs/03.PHP/QA.md#php-fpmconf-配置)
-- [502、504 错误产生原因及解决方式](./docs/03.PHP/QA.md#502504-错误产生原因及解决方式)
-- [如何返回一个301重定向](./docs/03.PHP/QA.md#如何返回一个301重定向)
-- [PHP 与 MySQL 连接方式](./docs/03.PHP/QA.md#php-与-mysql-连接方式)
-- [MySQL、MySQLi、PDO 区别](./docs/03.PHP/QA.md#mysqlmysqlipdo-区别)
-- [MySQL 连接池](./docs/03.PHP/QA.md#mysql-连接池)
-- [代码执行过程](./docs/03.PHP/QA.md#代码执行过程)
-- [base64 编码原理](./docs/03.PHP/QA.md#base64-编码原理)
-- [ip2long 实现](./docs/03.PHP/QA.md#ip2long-实现)
-- [MVC 的理解](./docs/03.PHP/QA.md#mvc-的理解)
-- [主流 PHP 框架特点](./docs/03.PHP/QA.md#主流-php-框架特点)
-- [对象关系映射/ORM](./docs/03.PHP/QA.md#对象关系映射orm)
-- [串行、并行、并发的区别](./docs/03.PHP/QA.md#串行、并行、并发的区别)
-- [同步与异步的理解](./docs/03.PHP/QA.md#同步与异步的理解)
-- [阻塞与非阻塞的理解](./docs/03.PHP/QA.md#阻塞与非阻塞的理解)
-- [同步阻塞与非同步阻塞的理解](./docs/03.PHP/QA.md#同步阻塞与非同步阻塞的理解)
-- [一条echo输出语句是如何执行的](./docs/php/一条echo输出语句是如何执行的.md)
-- [FastCGI Process Manager](./docs/php/FastCGI-Process-Manager.md)
-- [php支持哪些注释风格](./docs/php/php支持哪些注释风格.md)
 
 ### 2、存储篇
 
